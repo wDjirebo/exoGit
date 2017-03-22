@@ -69,6 +69,39 @@ ayant en charge la gestion et la distribution de l’eau dans leur attribution.
 </div>
 </div>
 
+<div id="domaine">
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-12">
+    <h2 class="intervention"> DOMAINES D’INTERVENTION </h2>
+   
+
+
+          <div class="blockDuCarousel">        
+              <div class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="domaine/controle_qualite1.jpg" class="img-responsive" width="1400" height="400">
+                            </div>
+                            <div class="item">
+                                <img src="domaine/environnement1.jpg" class="img-responsive" width="1400" height="400">
+                            </div>
+                            <div class="item">
+                                <img src="domaine/formation1.jpg" class="img-responsive" width="1400" height="400">
+                            </div>
+                            <div class="item">
+                                <img src="domaine/multiservice1.jpg" class="img-responsive" width="1400" height="400">
+                            </div>
+                        </div>
+                    </div>                 
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
 
 </body>
 </html>
