@@ -40,5 +40,35 @@
     </div>
       </div><!--colsMenu-->
     </div><!--blockMenu-->
+    
+  </div>
+</nav>
+</div>
+<div id="about">
+<div class="jumbotron text-center">
+  <h1 id="nomEntreprise">GREEN VISION GROUP</h1> 
+  <p><small>Etudes  -  Conseils  -  Travaux  -  Formation </small></p> 
+<div class="presentation">
+  <h1 id="qui"><center> Qui nous sommes ? </center></h1>   
+    <p id="apropos"><br/>
+    GREEN  VISION  GROUP  CONSULTING  SERVICES  -  CÔTE  D’IVOIRE  en  abrégé 
+(GVGCS-CI)  est  un  bureau  d’études  en  ingénierie  environnementale,  de 
+conseils,  de  fourniture  d’équipements  et  de  formations.  Son  siège  social  se 
+situe  à  Abidjan,  route  Bingerville  BP :  12238  Abidjan  01,  immatriculée  au 
+Registre  du  Commerce  sous  le  numéro :  CI-ABJ-2016-20276.
+GVGCS-CI est doté d’un Laboratoire d’Analyses et Métrologie Environnementale (LAMEN), il 
+a  pour  mission  principale  de  répondre  aux  besoins  de  sa  clientèle  et  ses 
+partenaires à travers son expertise. 
+GVGCS-CI développe des activités “CLEAN WATER” à travers le projet Green 
+Process, dont l’objectif est de faire la promotion du conditionnement de l’eau 
+chez le consommateur final, la normalisation des services et des produits et le 
+développement  d’une  concertation  efficace  avec  les  diverses  instances 
+ayant en charge la gestion et la distribution de l’eau dans leur attribution.
+</p>
+</div>
+</div>
+</div>
 
-</script>
+
+</body>
+</html>
