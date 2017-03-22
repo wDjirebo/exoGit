@@ -102,6 +102,158 @@ ayant en charge la gestion et la distribution de l’eau dans leur attribution.
 </div>
 
 
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+<div class="sous-block">
+  <h2 id="produit">Nos produits</h2><br>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4 photo">
+      <div class="thumbnail">
+        <img src="green vision group/bonbonneFiltrante.jpg"  alt="bonbonneFiltrante" width="400" height="300">
+       <h1 class="download">Cliquez pour télécharger</h1>
+      </div>
+    </div>
+    <div class="col-sm-4 photo">
+      <div class="thumbnail">
+        <img src="green vision group/filtreDupleix.jpg"  width="400" height="300">
+        <h1 class="download">Cliquez pour télécharger</h1>
+      </div>
+    </div>
+    <div class="col-sm-4 photo">
+      <div class="thumbnail">
+        <img src="green vision group/fontaineEau_filtre.jpg"  width="400" height="300">
+       <h1 class="download">Cliquez pour télécharger</h1>
+      </div>
+    </div>
+  </div><br>
+
+  <div class="row text-center slideanim">
+    <div class="col-sm-4 photo">
+      <div class="thumbnail">
+        <img src="green vision group/monoplex.jpg"  alt="bonbonneFiltrante" width="400" height="300">
+       <h1 class="download">Cliquez pour télécharger</h1>
+      </div>
+    </div>
+    <div class="col-sm-4 photo">
+      <div class="thumbnail">
+        <img src="green vision group/fontaineEva.jpg"   width="400" height="300">
+        <h1 class="download">Cliquez pour télécharger</h1>
+      </div>
+    </div>
+    <div class="col-sm-4 photo">
+      <div class="thumbnail">
+        <img src="green vision group/panasonic.jpg"  width="400" height="300">
+       <h1 class="download">Cliquez pour télécharger</h1>
+      </div>
+    </div>
+  </div><br>
+
+  <div class="row text-center slideanim">
+    <div class="col-sm-4 photo">
+      <div class="thumbnail">
+        <img src="green vision group/osmoseur.jpg"  alt="bonbonneFiltrante" width="400" height="300">
+       <h1 class="download">Cliquez pour télécharger</h1>
+      </div>
+    </div>
+    <div class="col-sm-4 photo">
+      <div class="thumbnail">
+        <img src="green vision group/triplex.jpg"   width="400" height="300">
+        <h1 class="download">Cliquez pour télécharger</h1>
+      </div>
+    </div>
+    <div class="col-sm-4 photo">
+      <div class="thumbnail">
+        <img src="green vision group/lamen.jpg"  width="400" height="300">
+       <h1 class="download">Cliquez pour télécharger</h1>
+      </div>
+    </div>
+  </div><br>
+
+  <div class="row text-center slideanim">
+    <div class="col-sm-6 photo">
+      <div class="thumbnail">
+        <img src="green vision group/depliant.jpg"  alt="bonbonneFiltrante" width="400" height="300">
+       <h1 class="download">Cliquez pour télécharger</h1>
+      </div>
+    </div>
+    <div class="col-sm-6 photo">
+      <div class="thumbnail">
+        <img src="green vision group/catalogueGreenVisionGroup.jpg"  width="400" height="300">
+        <h1 class="download">Cliquez pour télécharger</h1>
+      </div>
+    </div>
+  </div><br>
+  </div><!--sous-block-->
+  </div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center" id="newsletter"> Newsletter </h2><br/>
+  <div class="row">
+
+    <div class="col-sm-5">
+<p class="paragraphe">Recevoir des mails pour des offres exceptionnelles.</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <form class="form-horizontal">
+                    <div class="form-group">
+                      <label for="exampleInputEmail2">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                    </div>
+                    <button type="submit" class="btn btn-default">Envoyer</button>
+        </form>
+    </div>
+  </div>
+</div>
+
+
+<footer class="container-fluid text-right">
+  <a href="#myPage" title="Remonter">
+    <span class="glyphicon glyphicon-chevron-up" id="remonter"></span>
+  </a>
+</footer>
+
+</div> <!--cols-->
+</div> <!--blockPrincipal-->
+</div> <!--corp-->
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
 
 </body>
 </html>
